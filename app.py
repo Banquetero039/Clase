@@ -27,8 +27,8 @@ st.subheader("¿Cual es el problema de salud en Mexico?")
 st.text_area("Las enfermedades no transmisibles siguen siendo uno de los principales retos que debemos afrontar en México, y es de la mano de la innovación y la investigación que podemos cambiar la ruta de estas enfermedades, y cambiar la vida de las personas, sus familias y sus comunidades.")
 
 st.text("Gasto total en salud (publico y privado), por pais")
-arr = np.random.normal(1, 1, size=100)
-fig, ax = plt.subplots()
-ax.hist(arr, bins=10)
+chart_data = pd.DataFrame(
+    np.random.randn(17, 17),
+    columns=["E.U", "Holanda", "Francia","Alemania","Canada","Belgica","U.K","OCDE","España","Brasil","Chile","Rep.Checa","Polonia","Cor.Sur","Mexico","Turquia","Rusia"])
 
-st.pyplot(fig)
+st.bar_chart(chart_data)
