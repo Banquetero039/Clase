@@ -1,9 +1,16 @@
 import streamlit as st
-st.title('Aplicacion para...')
+import matplotlib.pyplot as plt
+import pandas as pd
+import numpy as np
+import plotly.express as px
+import plotly.graph_objects as go
+import os, time
+
+st.title('Los problemas de salud en Mexico')
 st.image("https://www.limarp.com/img/obesidad-morbida.png")
-st.sidebar.header("¿Que estado tiene mayor porcentaje de obesidad?")
+st.sidebar.header("Filtro")
 with st.sidebar:
-  porcentaje = st.radio("Estados:",("Baja california sur","Tabasco","Distrito federal"))
+  porcentaje = st.radio("Indice:",("Inicio","Graficas","Soluciones"))
   if porcentaje == "Baja california":
     st.write("80%")
   
@@ -15,15 +22,13 @@ with st.sidebar:
   
   imc = masa/estatura**2
   st.write(imc)
-import streamlit as st
-st.write('''
-# This is the document title
-This is some_markdown_.
-''')
-import pandas as pd
-df = pd.DataFrame({'Col1':[1,2,3],'Col2':[4,5,6]})
-st.write(df)
-texto = st.text_area('Problematica', '''
-    
-    ''')
-st.button("IMC")
+
+st.subheader("¿Cual es el problema de salud en Mexico?")
+st.text_area("Las enfermedades no transmisibles siguen siendo uno de los principales retos que debemos afrontar en México, y es de la mano de la innovación y la investigación que podemos cambiar la ruta de estas enfermedades, y cambiar la vida de las personas, sus familias y sus comunidades.")
+
+st.text("Gasto total en salud (publico y privado), por pais")
+arr = np.random.normal(1, 1, size=100)
+fig, ax = plt.subplots()
+ax.hist(arr, bins=10)
+
+st.pyplot(fig)
