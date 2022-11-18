@@ -72,4 +72,5 @@ if opciones =="Soluciones":
   y = st.slider("Que edad tienes?",
                 min_value=0, max_value=100, step=1)
   st.write("Tu edad:", y)
-  
+  if x == 40:
+    st.write("Peligro coma diabetico")
