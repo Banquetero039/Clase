@@ -50,3 +50,7 @@ if opciones =="Graficas":
   df1 = pd.DataFrame(mortalidad_causas)
   fig = px.bar(df1,x='Causa',y='Número de defunciones')
   fig
+if opciones =="Soluciones":
+  st.title("Las soluciones")
+  st.subheader("‎ ‎ ‎ Mejor alimentación, menos productos procesados y más actividad fisica.‎ ‎ ‎ ")
+  st.write("")
