@@ -75,6 +75,7 @@ if opciones =="Soluciones":
   if x == 40:
     st.write("Peligro coma diabetico")
 with st.sidebar:
+  st.image("https://c8.alamy.com/compes/e9fyr0/vida-sana-ilustracion-de-apple-e9fyr0.jpg")
   st.write("Mayte Fabiola Navarro Barrios--348934")
   st.write("")
   st.Write("")
