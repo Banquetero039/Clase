@@ -63,7 +63,13 @@ if opciones =="Soluciones":
   
   st.header("¿Cómo saber si tu nivel de azucar en la sangre esta en un buen nivel y si estas en riesgo de tener diabetes?")
   
-  st.header("Tu valor de azucar en la sangre:")
+  st.subheader("Tu valor de azucar en la sangre:")
   x = st.slider("Número entre 40-500",
                 min_value=40, max_value=500, step=1)
   st.write("Tu valor:", x)
+  
+  st.subheader("Tu edad:")
+  y = st.slider("Que edad tienes?,
+                min_value=0, max_value=100, step=1)
+  st.write("Tu edad:", y)
+  
