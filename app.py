@@ -55,8 +55,8 @@ if opciones =="Soluciones":
   st.subheader("Mejor alimentación, menos productos procesados y más actividad fisica.")
   st.write("Más del 95% de los casos de obesidad infantil se deben a dietas con alto valor calórico y a baja actividad fisica, por lo que el sobrepeso y la obesidad pueden prevenirse en la mayoria de las niñas y niños mejorando sus habitos de nutricion y salud, y promoviendo una mayor actividad fisica.")
   
-  st.write("•Niñas, niños y adolescentes construyan hábitos de consumo de alimentos saludables.")
-  st.write("•Las familias más vulnerables cuenten con los recursos para adquirir alimentos suficientes y nutritivos.")
-  st.write("•Se reduzca el consumo de bebidas azucaradas y alimentos ultra procesados, altos en grasas, sodio y azúcares.")
-  st.write("•Niños, niñas y adolescentes construyan hábitos con mayor actividad física y menos sedentarismo.")
+  st.write("• Niñas, niños y adolescentes construyan hábitos de consumo de alimentos saludables.")
+  st.write("• Las familias más vulnerables cuenten con los recursos para adquirir alimentos suficientes y nutritivos.")
+  st.write("• Se reduzca el consumo de bebidas azucaradas y alimentos ultra procesados, altos en grasas, sodio y azúcares.")
+  st.write("• Niños, niñas y adolescentes construyan hábitos con mayor actividad física y menos sedentarismo.")
   
