@@ -60,4 +60,4 @@ if opciones =="Soluciones":
   st.write("• Se reduzca el consumo de bebidas azucaradas y alimentos ultra procesados, altos en grasas, sodio y azúcares.")
   st.write("• Niños, niñas y adolescentes construyan hábitos con mayor actividad física y menos sedentarismo.")
   
-  sub.header("¿Cómo saber si tu nivel de azucar en la sangre esta en un buen nivel y saber si estas en riesgo de tener diabetes?")
+  st.header("¿Cómo saber si tu nivel de azucar en la sangre esta en un buen nivel y saber si estas en riesgo de tener diabetes?")
