@@ -24,6 +24,7 @@ if opciones =="Inicio":
 if opciones =="Graficas":
   st.title("Recursos destinados a la salud")
   st.subheader("Gasto en sanidad (% del PIB)")
+  import plotly.express as px
   recursos_sanidad = {
     'Pais': ['EE.UU.','Suiza','Alemania','Francia','Suecia','Canada','Dinamarca','Portugal','Chile','España','Italia','Corea del sur','Grecia','Polonia','Letonia','Mexico','luxemburgo','Turquia'],
     '% del PIB': [16.9,12.2,11.2,11.2,11,10.7,10.5,9.1,8.9,8.9,8.8,8.1,7.8,6.3,5.9,5.5,5.4,4.2]
