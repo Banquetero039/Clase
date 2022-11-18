@@ -65,5 +65,5 @@ if opciones =="Soluciones":
   
   st.header("Tu valor de azucar en la sangre:")
   x = st.slider("Número entre 40-500",
-                min_value=40, max_value=500, step=120)
+                min_value=40, max_value=500, step=1)
   st.write("Tu valor:", x)
