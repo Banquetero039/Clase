@@ -74,7 +74,7 @@ if opciones =="Soluciones":
   st.write("Tu edad:", y)
   if x == 40:
     st.write("Peligro coma diabetico")
-with sidebar:
+with st.sidebar:
   st.write("Mayte Fabiola Navarro Barrios--348934")
   st.write("")
   st.Write("")
