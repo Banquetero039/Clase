@@ -20,7 +20,7 @@ if opciones =="Inicio":
     st.image("https://draalejandraramirez.com.mx/wp-content/uploads/2022/07/obesidad-infantil-scaled.jpg")
   with col4:
       st.write("El principal problema de nutrición que padecen niñas y niños de entre 6 a 11 años es la presencia de ambos padecimientos, obesidad y sobrepeso.Debido a esto, México se encuentra entre los primeros lugares en obesidad infantil en el mundo.El sobrepeso y la obesidad en México son un problema que se presenta desde la primera infancia, es decir, entre 0 y 5 años. Al menos 1 de cada 20 niños y niñas menores de 5 años padece obesidad, lo que favorece el sobrepeso durante el resto de su vida y los pone en riesgo de sufrir enfermedades circulatorias, del corazón y de los riñones, diabetes, entre otras.")
-  st.subheader("‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎  ‎ ‎ ‎ Diabetes‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ")
+  st.subheader("‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎  ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎  ‎ ‎ ‎ Diabetes‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ")
   st.write("La diabetes es una enfermedad crónica (de larga duración) que afecta la forma en que el cuerpo convierte los alimentos en energía.")
   st.write("Su cuerpo descompone la mayor parte de los alimentos que come en azúcar (también llamada glucosa) y los libera en el torrente sanguíneo.")
 if opciones =="Graficas":
