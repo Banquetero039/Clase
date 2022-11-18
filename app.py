@@ -73,11 +73,11 @@ if opciones =="Soluciones":
                 min_value=0, max_value=100, step=1)
   st.write("Tu edad:", y)
   if x == 40:
-    st.write("Peligro coma diabetico")
+    st.write("Peligro coma diabetico👩‍⚕️️💉📅")
 with st.sidebar:
   st.image("https://us.123rf.com/450wm/guniita/guniita1308/guniita130800015/21576102-tri%C3%A1ngulo-de-vida-sana.jpg")
   st.write("Mayte Fabiola Navarro Barrios--348934")
-  st.write("")
-  st.Write("")
-  st.Write("")
+  st.write("s")
+  st.Write("s")
+  st.Write("s")
   
