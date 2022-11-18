@@ -69,7 +69,7 @@ if opciones =="Soluciones":
   st.write("Tu valor:", x)
   
   st.subheader("Tu edad:")
-  y = st.slider("Que edad tienes?,
+  y = st.slider("Que edad tienes?",
                 min_value=0, max_value=100, step=1)
   st.write("Tu edad:", y)
   
