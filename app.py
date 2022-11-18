@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import os, time
-pip install plotly --upgrade
+import plotly as px
 
 opciones = st.sidebar.radio("Filtro",["Inicio","Graficas","Soluciones"])
 
