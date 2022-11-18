@@ -79,9 +79,9 @@ with st.sidebar:
 with st.sidebar:
   st.write("Mayte Fabiola Navarro Barrios 348934")
 with st.sidebar:
-  st.write("Ariana Guadalupe Negrete Morales       ")
+  st.write("Ariana Guadalupe Negrete Morales 355429")
 with st.sidebar:
-  st.write("Ana Sofia Amado Urias       ")
+  st.write("Ana Sofia Amado Urias 349143")
 with st.sidebar:
-  st.write("Luis Angel Ramirez Trejo       ")
+  st.write("Luis Angel Ramirez Trejo 345545")
   
