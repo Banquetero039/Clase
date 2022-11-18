@@ -74,8 +74,6 @@ if opciones =="Soluciones":
   st.write("Tu edad:", y)
   if x == 40:
     st.write("Peligro coma diabetico👩‍⚕️️💉📅")
-  if x == 120, 121, 122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140:
-    st.write("Tu nivel de azucar es normal")
 with st.sidebar:
   st.image("https://blogsaverroes.juntadeandalucia.es/habitosdevidasaludables/files/2020/05/images.jpg")
 with st.sidebar:
