@@ -75,9 +75,10 @@ if opciones =="Soluciones":
   if x == 40:
     st.write("Peligro coma diabetico👩‍⚕️️💉📅")
 with st.sidebar:
-  st.image("https://us.123rf.com/450wm/guniita/guniita1308/guniita130800015/21576102-tri%C3%A1ngulo-de-vida-sana.jpg")
   st.write("Mayte Fabiola Navarro Barrios--348934")
   st.write("Ariana Guadalupe Negrete Morales--")
   st.Write("Ana Sofia Amado Urias--")
   st.Write("Luis Angel Ramirez Trejo--345545")
+  st.image("https://us.123rf.com/450wm/guniita/guniita1308/guniita130800015/21576102-tri%C3%A1ngulo-de-vida-sana.jpg")
+
   
