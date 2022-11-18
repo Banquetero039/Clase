@@ -75,5 +75,11 @@ if opciones =="Soluciones":
   if x == 40:
     st.write("Peligro coma diabetico👩‍⚕️️💉📅")
 with st.sidebar:
-  st.write("Mayte Fabiola Navarro Barrios--348934. Ariana Guadalupe Negrete Morales--. Ana Sofia Amado Urias--. Luis Angel Ramirez Trejo--")
+  st.write("Mayte Fabiola Navarro Barrios 348934")
+with st.sidebar:
+  st.write("Ariana Guadalupe Negrete Morales       ")
+with st.sidebar:
+  st.write("Ana Sofia Amado Urias       ")
+with st.sidebar:
+  st.write("Luis Angel Ramirez Trejo       ")
   
