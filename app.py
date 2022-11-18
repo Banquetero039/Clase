@@ -59,5 +59,7 @@ if opciones =="Soluciones":
   st.write("• Las familias más vulnerables cuenten con los recursos para adquirir alimentos suficientes y nutritivos.")
   st.write("• Se reduzca el consumo de bebidas azucaradas y alimentos ultra procesados, altos en grasas, sodio y azúcares.")
   st.write("• Niños, niñas y adolescentes construyan hábitos con mayor actividad física y menos sedentarismo.")
+  st.image("https://img.freepik.com/vector-premium/deporte-fitness-vida-sana-diseno_24877-14801.jpg?w=2000")
   
   st.header("¿Cómo saber si tu nivel de azucar en la sangre esta en un buen nivel y si estas en riesgo de tener diabetes?")
+  
